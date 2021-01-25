@@ -1,23 +1,23 @@
 ﻿  Source.cpp
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,4): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,4): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,21): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,43): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,43): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,61): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,61): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,79): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(23,79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,4): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,4): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,23): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,39): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,65): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,65): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,86): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,86): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(73,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,5): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,22): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,44): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,62): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,62): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,80): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(24,80): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,5): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,24): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,40): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,66): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,66): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,87): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(25,87): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(79,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   Vending Machine.vcxproj -> E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Debug\Vending Machine.exe
