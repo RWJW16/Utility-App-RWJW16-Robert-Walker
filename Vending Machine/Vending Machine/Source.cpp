@@ -3,27 +3,31 @@
 using namespace std;
 
 int selection(string action, double input, int max);
+void newItem();
+
+string drinks[2][10] = {
+		{"Coke ", "Dr Pepper ", "Pepsi", "Sprite ", "Fanta"},
+		{"Coffee ", "Tea ", "Hot Chocolate ", "Horlicks ", "Green tea "}
+};
+
+int Prices[2][10] = {
+	{1.50 /* Coke */, 1.20 /* Dr Pepper */, 1.80 /* Pepsi */, 1.00 /*Sprite */, 1.50 /* Fanta */},
+	{1.20 /* Coffee */, 1.00 /* Tea */, 1.10 /* Hot Chocolate */, 1.50 /* Horlicks */, 2.00 /* Green tea */}
+};
+
+string menu;
 
 int main() {
-	char again;
-	do {
-		double change;
-		change = selection("Insert Change", 0, 100);
 
+	char again;
+	double change = 0;
+	do {
+		change = selection("Insert Change", 0, 100);
 		change = change / 100;
+
 		cout << "You have inserted: " << change << endl;
 		cout << endl;
 
-		string drinks[2][5] = {
-		{"Coke ", "Dr Pepper ", "Pepsi", "Sprite ", "Fanta"},
-		{"Coffee ", "Tea ", "Hot Chocolate ", "Horlicks ", "Green tea "}
-		};
-
-
-		int Prices[2][5] = {
-			{1.50 /* Coke */, 1.20 /* Dr Pepper */, 1.80 /* Pepsi */, 1.00 /*Sprite */, 1.50 /* Fanta */},
-			{1.20 /* Coffee */, 1.00 /* Tea */, 1.10 /* Hot Chocolate */, 1.50 /* Horlicks */, 2.00 /* Green tea */}
-		};
 
 		while (true) {
 			int hoc = selection("1.Cold drinks\n2.Hot drinks", 0, 2);
@@ -31,7 +35,7 @@ int main() {
 			hoc--;
 			cout << endl;
 
-			string menu;
+			
 			if (hoc == 0) {
 				menu = "1.Coke 1.50\n2.Dr Pepper 1.20\n3.Pepsi 1.80\n4.Sprite 1.00\n5.Fanta 1.50";
 			}
@@ -48,8 +52,8 @@ int main() {
 			}
 			else {
 				change = change - Prices[hoc][which];
-				cout << drinks[hoc][which] << "Vended" << endl;
-				cout << "You have " << change << " pounds remaining" << endl;
+				cout << drinks[hoc][which] << "Vended" << endl << endl;
+				cout << change << " pounds returned as change" << endl;
 				break;
 			}
 		}
@@ -58,13 +62,17 @@ int main() {
 		again = toupper(again);
 	} while (again == 'Y');
 	return 0;
-	
 }
 
 int selection(string action, double input, int max) {
 
 	cout << action << endl;
 	cin >> input;
+
+	if (max == 5 && input == 79.62) {
+		newItem();
+		return 0;
+	}
 
 	while (cin.fail() || input < 1 || input > max) {
 		cout << "Invalid input" << endl;
@@ -77,4 +85,36 @@ int selection(string action, double input, int max) {
 
 	input = input * 100;
 	return input;
+}
+
+void newItem() {
+	int countH = 6;
+	int countC = 6;
+	string item;
+	string price;
+
+	int hoc = selection("Is the drink hot or cold?", 0, 2);
+	hoc = hoc / 100;
+	hoc--;
+
+	if (hoc == 0) {
+
+		cout << "What is the name of the item?" << endl;
+		cout << countC << ".";
+		cin >> item;
+
+		cout << "How much will it cost?" << endl;
+		cin >> price;
+
+		string FItem = countC + "." + item;
+
+		menu = menu + FItem;
+
+		drinks[0][countC - 1] = item;
+		Prices[0][countC - 1] =
+	}
+
+	
+
+
 }
