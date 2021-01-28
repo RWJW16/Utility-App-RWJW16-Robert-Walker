@@ -7,7 +7,7 @@ int selection(string action, double input, int max); //intialising selection fun
 int main() {
 
 	int countH = 6; //applies preset item count for adding new hot drinks later.
-	int countC = 6; //applies preset item count for adding new hot drinks later.
+	int countC = 6; //applies preset item count for adding new cold drinks later.
 
 	string drinks[2][10] = { //intialised array holding all item names for hot and cold drinks.
 		{"Coke ", "Dr Pepper ", "Pepsi ", "Sprite ", "Fanta "}, //cold drinks.
