@@ -1,3 +1,3 @@
 ﻿  Source.cpp
-E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(149,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Vending Machine\Source.cpp(151,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   Vending Machine.vcxproj -> E:\University\CodeLab 1\Github\Vending-Machine\Vending Machine\Debug\Vending Machine.exe

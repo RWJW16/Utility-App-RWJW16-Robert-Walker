@@ -41,7 +41,7 @@ int main() {
 			cout << endl; //adds a space for clarity.
 
 			cout << "Please select a drink (type 12 to add a new drink to the menu)" << endl; //asks for user input regarding the drink they want, or if they want to add a new item.
-			string menu = " "; //intialises menu variable whilst also clearing it if the program has looped.
+			string menu = ""; //intialises menu variable whilst also clearing it if the program has looped.
 			int num = 1; //sets number outside for loop to avoid num being reset each loop of the for.
 
 			if (hoc == 0) { //if statement to help set up menu based on user selection. 0 = cold, 1 = hot.
